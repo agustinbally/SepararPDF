@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SepararPDF", "SepararPDF\SepararPDF.csproj", "{960B443E-C837-433D-89CD-3FF2BFB09613}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFTools", "PDFTools\PDFTools.csproj", "{D67995F2-FA20-4B81-82B4-C9F2D81161FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeparadorPdfApp", "SeparadorPdfApp\SeparadorPdfApp.csproj", "{272695B7-987A-4A5D-B73A-141CE0821292}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{960B443E-C837-433D-89CD-3FF2BFB09613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{960B443E-C837-433D-89CD-3FF2BFB09613}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{960B443E-C837-433D-89CD-3FF2BFB09613}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{960B443E-C837-433D-89CD-3FF2BFB09613}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D67995F2-FA20-4B81-82B4-C9F2D81161FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D67995F2-FA20-4B81-82B4-C9F2D81161FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D67995F2-FA20-4B81-82B4-C9F2D81161FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D67995F2-FA20-4B81-82B4-C9F2D81161FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{272695B7-987A-4A5D-B73A-141CE0821292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{272695B7-987A-4A5D-B73A-141CE0821292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{272695B7-987A-4A5D-B73A-141CE0821292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{272695B7-987A-4A5D-B73A-141CE0821292}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,7 +1,4 @@
 ﻿using System;
-using System.IO;
-using PdfSharp.Pdf;
-using PdfSharp.Pdf.IO;
 using PDFTools;
 
 namespace SepararPDF
@@ -10,10 +7,27 @@ namespace SepararPDF
     {
         static void Main(string[] args)
         {
-            // Get a fresh copy of the sample PDF file
-            const string filename = "Recibos_2015_02.pdf";
+            if (args == null || args.Length != 2)
+            {
+                MostrarUso();
+            }
+            else
+            {
+                try
+                {
+                    SeparadorPdf.SepararPdf(args[0], args[1]);   
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Error: {0}", ex.Message);
+                    MostrarUso();
+                }
+            }
+        }
 
-            SeparadorPdf.SepararPdf(Path.Combine("../../pdfs/", filename), Directory.GetCurrentDirectory());
+        private static void MostrarUso()
+        {
+            Console.WriteLine("Uso: SepararPDF.exe inputFilePath outputDir");
         }
     }
 }
